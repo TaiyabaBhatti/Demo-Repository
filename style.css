@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+
+#canvas{
+      position: relative;
+      display: grid;
+     grid-template-columns: repeat(9, 1fr);
+     grid-template-rows: repeat(9, 1fr); 
+     margin-left: 50px;
+     margin-top: 50px;
+       border: 1px solid black;
+       width: 450px;
+       height: 450px;
+}
+.block{
+     
+      width: 50px-1px;
+      height: 50px-1px;
+
+}
+.ending-block{
+    background-color: rgb(160, 25, 201);
+}
+.starting-block{
+    background-color: rgb(3, 65, 43);
+}
+
+
+.l1, .l2, .l3{
+    background-color: rgb(88, 39, 7);
+}
+
+.l4, .l5{
+    background-color: rgb(16, 229, 236);
+}
+
+.c3{
+
+background-color: rgb(230, 15, 8);
+border-radius: 20%;
+}
+.c1, .c2{
+    background-color: rgb(42, 44, 44);
+}
+
+
+
+.frog{
+    background-color: rgb(11, 150, 11);
+}
